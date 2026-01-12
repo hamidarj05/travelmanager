@@ -19,6 +19,9 @@ function Navbar({onLogout}) {
           <li>
             <Link className="hover:text-gray-300" to="/contact">Contact</Link>
           </li>
+          <li>
+            <Link className="hover:text-gray-300" to="/inbox">Inbox</Link>
+          </li>
         </ul>
         <button onClick={onLogout}>
             LogOut

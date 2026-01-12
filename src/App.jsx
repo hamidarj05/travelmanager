@@ -5,7 +5,8 @@ import HotelsCrud from "./components/ListeHotels";
 import ToursCrud from "./components/ListeTours";
 import Contact from "./components/Contact";
 import Login from "./components/Login";
-import useAuth from './Hooks/useAuth'
+import useAuth from './Hooks/useAuth';
+import Inbox from "./components/Inbox";
 
 function App() {
   const { login, isLogin, error, setIsLogin } = useAuth();
@@ -23,6 +24,7 @@ function App() {
             <Route path="/hotels" element={<HotelsCrud />} />
             <Route path="/tours" element={<ToursCrud />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/inbox" element={<Inbox />} />
           </Routes>
         </>
       ) : (

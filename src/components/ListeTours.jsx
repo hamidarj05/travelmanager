@@ -6,8 +6,7 @@ function ToursCrud () {
   const [editingId, setEditingId] = useState(null);
 
   const apiUrl = "http://localhost:5000/tours";
-
-  // Fetch tours
+ 
   const fetchTours = () => {
     fetch(apiUrl)
       .then(res => res.json())

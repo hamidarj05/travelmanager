@@ -1,84 +1,93 @@
 {
-    "hotels": [
-        {
-            "name": "Hotel Atlas",
-            "city": "Marrakech",
-            "rating": 4.5,
-            "id": "1"
-        },
-        {
-            "name": "Riad Dar Anika",
-            "city": "Marrakech",
-            "rating": 4.7,
-            "id": "2"
-        },
-        {
-            "name": "Le Casablanca Hotel",
-            "city": "Casablanca",
-            "rating": 4.3,
-            "id": "3"
-        },
-        {
-            "name": "Hotel Sahrai",
-            "city": "Fes",
-            "rating": 4.6,
-            "id": "4"
-        },
-        {
-            "name": "Riad Laaroussa",
-            "city": "Fes",
-            "rating": 4.8,
-            "id": "5"
-        },
-        {
-            "name": "Hotel La Mamounia",
-            "city": "Marrakech",
-            "rating": 5.0,
-            "id": "6"
-        },
-        {
-            "name": "Blue Marina Resort",
-            "city": "Agadir",
-            "rating": 4.2,
-            "id": "7"
-        },
-        {
-            "name": "Hotel Chellah",
-            "city": "Rabat",
-            "rating": 4.1,
-            "id": "8"
-        },
-        {
-            "name": "Hotel Mnar Park",
-            "city": "Chefchaouen",
-            "rating": 4.4,
-            "id": "9"
-        },
-        {
-            "name": "Riad Alwane",
-            "city": "Marrakech",
-            "rating": 4.5,
-            "id": "10"
-        }
-    ],
-    "tours": [
-        {
-            "id": "1",
-            "name": "Desert Camel Ride",
-            "duration": "3h",
-            "price": 50
-        },
-        {
-            "id": "2",
-            "name": "Marrakech City Tour",
-            "duration": "5h",
-            "price": 40
-        }
-    ],
-    "accounts" : [
-        {
-            "email" : "Hamidarj63@gmail.com",
-            "password" : "Hamid@123"
-        }
-    ]
+  "hotels": [
+    {
+      "name": "Hotel Atlas",
+      "city": "Marrakech",
+      "rating": 4.5,
+      "id": "1"
+    },
+    {
+      "name": "Riad Dar Anika",
+      "city": "Marrakech",
+      "rating": 4.7,
+      "id": "2"
+    },
+    {
+      "name": "Le Casablanca Hotel",
+      "city": "Casablanca",
+      "rating": 4.3,
+      "id": "3"
+    },
+    {
+      "name": "Hotel Sahrai",
+      "city": "Fes",
+      "rating": 4.6,
+      "id": "4"
+    },
+    {
+      "name": "Riad Laaroussa",
+      "city": "Fes",
+      "rating": 4.8,
+      "id": "5"
+    },
+    {
+      "name": "Hotel La Mamounia",
+      "city": "Marrakech",
+      "rating": 5,
+      "id": "6"
+    },
+    {
+      "name": "Blue Marina Resort",
+      "city": "Agadir",
+      "rating": 4.2,
+      "id": "7"
+    },
+    {
+      "name": "Hotel Chellah",
+      "city": "Rabat",
+      "rating": 4.1,
+      "id": "8"
+    },
+    {
+      "name": "Hotel Mnar Park",
+      "city": "Chefchaouen",
+      "rating": 4.4,
+      "id": "9"
+    },
+    {
+      "name": "Riad Alwane",
+      "city": "Marrakech",
+      "rating": 4.5,
+      "id": "10"
+    }
+  ],
+  "tours": [
+    {
+      "id": "1",
+      "name": "Desert Camel Ride",
+      "duration": "3h",
+      "price": 50
+    },
+    {
+      "id": "2",
+      "name": "Marrakech City Tour",
+      "duration": "5h",
+      "price": 40
+    }
+  ],
+  "accounts": [
+    {
+      "email": "Hamidarj63@gmail.com",
+      "password": "Hamid@123",
+      "id": "836b"
+    }
+  ],
+  "messages": [
+    {
+      "id": "90b5",
+      "message": "Donner moi plus des informations pour les tours a fes\n",
+      "nom": "Hamid",
+      "email": "hamidarj63@gmail.com"
+    }
+  ]
 }
